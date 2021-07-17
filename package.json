@@ -1,0 +1,37 @@
+{
+  "name": "athlestat",
+  "version": "0.0.1",
+  "description": "Athletes statistics and tracking.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayak-club-Sombor/athlestat.git"
+  },
+  "keywords": [
+    "athlete",
+    "statistics",
+    "tracking",
+    "managing",
+    "sports",
+    "stats"
+  ],
+  "author": "Zoran & Predrag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayak-club-Sombor/athlestat/issues"
+  },
+  "homepage": "https://github.com/Kayak-club-Sombor/athlestat#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.4.2"
+  }
+}
