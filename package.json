@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kayak-club-Sombor/athlestat.git"
+    "url": "git+https://github.com/pedjamusic/athlestat.git"
   },
   "keywords": [
     "athlete",
@@ -21,9 +21,9 @@
   "author": "Kayak Club Sombor & Too Dear",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kayak-club-Sombor/athlestat/issues"
+    "url": "https://github.com/pedjamusic/athlestat/issues"
   },
-  "homepage": "https://github.com/Kayak-club-Sombor/athlestat#readme",
+  "homepage": "https://github.com/pedjamusic/athlestat#readme",
   "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
