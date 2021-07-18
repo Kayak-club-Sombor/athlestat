@@ -2,14 +2,18 @@
   "name": "athlestat",
   "version": "0.0.1",
   "description": "Athletes statistics and tracking.",
-  "main": "index.html",
-  "scripts": {
-    "dev": "vite"
-  },
+  "main": "./public/index.html",
+  "private": true,
+  "author": "Kayak Club Sombor & Too Dear",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kayak-club-Sombor/athlestat.git"
   },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayak-club-Sombor/athlestat/issues"
+  },
+  "homepage": "https://github.com/Kayak-club-Sombor/athlestat#readme",
   "keywords": [
     "athlete",
     "statistics",
@@ -18,20 +22,46 @@
     "sports",
     "stats"
   ],
-  "author": "Kayak Club Sombor & Too Dear",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kayak-club-Sombor/athlestat/issues"
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^1.1.5",
+    "web-vitals": "^1.1.2"
   },
-  "homepage": "https://github.com/Kayak-club-Sombor/athlestat#readme",
   "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "autoprefixer": "^10.3.1",
     "postcss": "^8.3.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "tailwindcss": "^2.2.4",
     "vite": "^2.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "vite"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
