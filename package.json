@@ -2,33 +2,19 @@
   "name": "athlestat",
   "version": "0.0.1",
   "description": "Athletes statistics and tracking.",
-  "main": "./public/index.html",
   "private": true,
   "author": "Kayak Club Sombor & Too Dear",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kayak-club-Sombor/athlestat.git"
   },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kayak-club-Sombor/athlestat/issues"
-  },
-  "homepage": "https://github.com/Kayak-club-Sombor/athlestat#readme",
-  "keywords": [
-    "athlete",
-    "statistics",
-    "tracking",
-    "managing",
-    "sports",
-    "stats"
-  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "devDependencies": {
